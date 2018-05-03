@@ -8,3 +8,8 @@ en el ASP NET Core.
 Creamos una capa Business Logic donde teneemos una interface que emula el acceso a la capa repository para poder obtener una lista
 de students y poder visualizarlo en la vista.
 En este caso para ver el funcionamiento solo accedemos a la vist Index.
+
+### Recursos utilizados 
+
+https://docs.microsoft.com/es-es/aspnet/core/fundamentals/dependency-injection
+https://joonasw.net/view/aspnet-core-di-deep-dive

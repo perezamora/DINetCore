@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<DICommon.Logic.Model.Student>
+
+<div class="container-fluid">
+    <h1>Ejemplo DI ASP NET CORE</h1>
+    <div container=" "></div>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.SurName
+                </td>
+            </tr>
+        }
+    </table>
+</div>
